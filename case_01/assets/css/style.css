@@ -1,18 +1,19 @@
+body{
+    background: #fcf6f6;
+}
+
 .main {
     position: relative;
     height: 100vh;
     overflow: hidden;
 }
-.line{
-
+.line {
     position: absolute;
-    width: 1200px;
+    width: 1070px;
     background: black;
     height: 1px;
-bottom: 240px;
-    left: 100px;
-
-
+    bottom: 240px;
+    left: 12px;
 }
 
 .main > h1 {
@@ -26,15 +27,15 @@ bottom: 240px;
     bottom: 300px;
     margin: auto;
     font-size: 60px;
-    color: red;
+    color: purple;
 
 }
-.card{
+.card {
     position: absolute;
     left: 0;
     right: 0;
     bottom: 200px;
-
+    left: -35px;
 }
 
 .card_main {
@@ -51,25 +52,41 @@ position: relative;
     position: absolute;
     left: 0;
     margin: auto;
-    width: 160px;
-    height: 200px;
-    background-image: url("../img/man.gif");
-    background-repeat: no-repeat;
-}
-.home{
+    width: 150px;
+    height: 150px;
+    margin-top: 34vh;
+}.man>img{
     position: absolute;
     left: 0;
     margin: auto;
-    width: 300px;
-    height: 200px;
-    background-image: url("../img/house.gif");
+    width: 150px;
+    height: 150px;
+}
+.home{
+    position: absolute;
+    margin: auto;
+    width: 180px;
+    height: 180px;
+  left: 1150px;
+
+
+    background-repeat: no-repeat;
+}.home>img{
+    position: absolute;
+    left: 0;
+    margin: auto;
+    width: 180px;
+    height: 180px;
+
     background-repeat: no-repeat;
 }
-.letter{
+.letter {
     position: absolute;
     right: 0;
     margin: auto;
     width: fit-content;
     height: fit-content;
+    top: 40vh;
+    margin-right: 7vw;
 }
 
